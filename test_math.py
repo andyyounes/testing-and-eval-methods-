@@ -37,7 +37,6 @@ def time_sub():
     sub(1000, 2000)
     elapsed = time.time() - start
     print(f"Time taken for sub: {elapsed:.2f} seconds")
-def pytest_time():
     
 @pytest.mark.time
 def test_execution_time():
@@ -71,4 +70,5 @@ def main():
     print(f'pytest: {test_execution_time()}')
 
 if __name__ == '__main__':
+
     main()
