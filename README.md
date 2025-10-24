@@ -10,13 +10,12 @@ This repository contains simple math operation functions and tests with timing b
 
 ## checks
 ```bash
-# install pytest
-pip install pytest
 # create a virtual environment
 python -m venv venv
 # activate
 venv\Scripts\activate.bat
-
+# install pytest
+pip install pytest
 ```
 
 ## How to Run
